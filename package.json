@@ -1,0 +1,51 @@
+{
+  "name": "my-portfolio-gateway",
+  "version": "1.0.0",
+  "description": "The Cloud Foundry Gateway for my portfolio",
+  "main": "app/index.js",
+  "engines": {
+    "node": "10.12.0"
+  },
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "jest --silent",
+    "monitor:dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweenn/my-portfolio-gateway.git"
+  },
+  "keywords": [
+    "felipe",
+    "zuntini",
+    "portfolio",
+    "node.js",
+    "gateway"
+  ],
+  "author": "Felipe Zuntini <felipezuntini@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tweenn/my-portfolio-gateway/issues"
+  },
+  "homepage": "https://github.com/tweenn/my-portfolio-gateway#readme",
+  "devDependencies": {
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "express-secure-only": "^0.2.1",
+    "jest": "^25.1.0",
+    "jest-runner-eslint": "^0.7.6",
+    "nodemon": "^2.0.2",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "express-rate-limit": "^5.1.1",
+    "helmet": "^3.21.2",
+    "https": "^1.0.0"
+  }
+}
