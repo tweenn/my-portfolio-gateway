@@ -8,5 +8,5 @@ applications:
   command: npm start
   path: ../../
   env:
-	NODE_ENV: production
-	NODE_MODULES_CACHE: true
+    NODE_ENV: production
+    NODE_MODULES_CACHE: true
